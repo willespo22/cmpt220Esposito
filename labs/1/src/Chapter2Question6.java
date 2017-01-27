@@ -24,7 +24,7 @@ public class Chapter2Question6 {
     // Extract the hundreds place number
     int hundreds = (integer / 100) % 10;
 
-    int answer = ones + tens + houndreds;
+    int answer = ones + tens + hundreds;
 
     System.out.print(" The sum of the digit is " + answer);
 
