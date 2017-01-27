@@ -13,7 +13,7 @@ public class Problem2_1 {
 		System.out.print("Enter a degree in Celcius: ");
 		double celcius = 0, farenheit = input.nextDouble();
 
-		// Compute area
+		// Compute temperature
 		farenheit = (9.0 / 5) * celcius + 32;
 
 		System.out.println(celcius + " celcius is " + farenheit + " degrees Farenheit.");
