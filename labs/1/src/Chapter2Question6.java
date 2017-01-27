@@ -22,7 +22,7 @@ public class Chapter2Question6 {
     int tens = (integer / 10) % 10;
 
     // Extract the hundreds place number
-    int houndreds = (integer / 100) % 10;
+    int hundreds = (integer / 100) % 10;
 
     int answer = ones + tens + houndreds;
 
