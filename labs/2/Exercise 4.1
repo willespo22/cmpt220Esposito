@@ -1,0 +1,23 @@
+
+//William Esposito
+//Professor Rivas
+//CMPT Lab 2 Question 5
+
+import java.util.*; //Scanner is in the java.util package
+
+public class Lab2_Question5 {
+  public static void main(String[] args) {
+    // Create a Scanner object
+    Scanner input = new Scanner(System.in);
+
+    // Prompt the user to enter the radius
+    System.out.print("Enter the length from center of a pentagon to a vertex: ");
+    double r = input.nextDouble();
+
+    double s = (2 * r) * Math.sin(Math.PI / 5);
+
+    double area = (5 * Math.pow(s, 2)) / (4 * Math.tan(Math.PI / 5));
+
+    System.out.format("%.2f%n", area);
+  }
+}
