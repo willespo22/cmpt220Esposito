@@ -1,0 +1,20 @@
+//William Esposito
+//Professor Rivas
+//Lab 3 Question 5.13
+
+public class chap5problem13 {
+  public static void main(String[] args) {
+
+    // declaring variables
+    int smallest = 0;
+    int n = 1;
+
+    while (n * n * n < 12000) {
+      n++;
+    }
+
+    n = n - 1;
+    
+    System.out.println("The smallest n such that n cubed is < 12000 is " + n);
+  }
+}
