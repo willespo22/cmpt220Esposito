@@ -1,0 +1,17 @@
+6 pts
+
+William,
+
+- Congratulations on passing the judge Kattis!
+
+
+However, 
+
+- The program was nowhere to be found. Did you delete it from your repository?
+
+- Please read the assignment instructions carefully.
+
+
+Peace,
+
+- Dr. Rivas
