@@ -1,6 +1,13 @@
-//William Esposito
-//Professor Rivas
-//Lab 3 Question 5.12
+/**
+   * file: SinglyLinkedList.java
+   * author: William Esposito
+   * course: CMPT 220
+   * assignment: Lab 3
+   * due date: February 24, 2017
+   * version: 1.3
+   * 
+   * This file contains The solution to the designated exercise 5.12
+   */
 
 public class chap5problem12 {
   public static void main(String[] args) {
