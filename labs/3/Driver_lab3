@@ -1,8 +1,16 @@
 import java.util.Scanner;
 import java.io.BufferedInputStream;
 
-//William Esposito
-//Kattis Problem Lab 3
+/**
+   * file: SinglyLinkedList.java
+   * author: William Esposito
+   * course: CMPT 220
+   * assignment: Lab 3
+   * due date: February 24, 2017
+   * version: 1.3
+   * 
+   * This file contains The solution to the Kattis exercise "different distances"
+   */
 
 public class Driver_lab3 {
   public static void main(String[] args) {
