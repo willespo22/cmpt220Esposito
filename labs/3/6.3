@@ -33,7 +33,16 @@ public class chap6problem3 {
       System.out.println(number + "Is not a Palindrome number.");
   }
 
-  // Return the reversal of an integer
+  /**
+   * isPalindrome
+   *
+   * This function computes the reversal of the int number
+   * 
+   * Parameters: number: The number entered by user.
+   * 
+   * Return value: true or false value depending on whether number is a
+   * Palindrome or not.
+   */
   public static boolean isPalindrome(int number) {
     int reverse = reverse(number);
 
@@ -45,9 +54,19 @@ public class chap6problem3 {
 
   }
 
-  // Reverse the integer number and return that value
+  /**
+   * reverse
+   *
+   * This function takes the number entered by user and computes it's reversed
+   * value.
+   * 
+   * Parameters: number: The number entered by user
+   * 
+   * Return value: The reverse of the number, to be used by function
+   * isPalindrome.
+   */
   public static int reverse(int number) {
-    // declaring variabales for loop
+    // declaring variables for loop
 
     int reverse = 0;
     int remainder;
