@@ -16,6 +16,10 @@ public class chap5problem13 {
     int smallest = 0;
     int n = 1;
 
+    
+     // this computes what value for n when it is multiplied by itself 3 times
+    // that the value will be less than 12000
+    
     while (n * n * n < 12000) {
       n++;
     }
