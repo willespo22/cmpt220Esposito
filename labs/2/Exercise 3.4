@@ -1,13 +1,14 @@
-  /**
-   * file: SinglyLinkedList.java
-   * author: William Esposito
-   * course: CMPT 220
-   * assignment: Lab 2
-   * due date: February 9, 2017
-   * version: 1.3
-   * 
-   * This file contains The solution to the designated exercise 3.4
-   */
+
+/**
+ * file: SinglyLinkedList.java
+ * author: William Esposito
+ * course: CMPT 220
+ * assignment: Lab 2
+ * due date: February 9, 2017
+ * version: 1.3
+ * 
+ * This file contains The solution to the designated exercise 3.4
+ */
 
 import java.util.Random; //Random is in the java.util package
 
@@ -18,6 +19,17 @@ public class Lab2_question1 {
     int month = rand.nextInt(12) + 1;
 
     String date = null;
+
+    /**
+     * Month
+     *
+     * This function converts the numberic value of 1 - 12 to the corresponding
+     * Month
+     * 
+     * Date: The month Month: the number that was input by the user
+     * 
+     * Return value: The month, i.e "January"
+     */
 
     if (month == 1)
       date = "January";
