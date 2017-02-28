@@ -24,6 +24,17 @@ public class Lab2_Question3 {
     System.out.print("Enter a month, use a number. January = 1, Febuary = 2, etc.");
     int month = input.nextInt();
 
+      /**
+   * switch (month)
+   *
+   * This function is a switch statement that will return the month and how many days it had
+   * based on the year.
+   * 
+   * Parameters:
+   *   Month, user input. 
+   * 
+   * Return value: "month" + year + " had ___ days."
+   */
     switch (month) {
     case 1:
       System.out.println("January " + year + " had 31 days.");
