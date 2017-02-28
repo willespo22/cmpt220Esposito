@@ -22,7 +22,17 @@ public class chap6problem2 {
     System.out.println("The sum of the integers are " + sumDigits(n));
   }
 
-  // Extracting the digits
+  /**
+   * sumDigits
+   *
+   * This function computes the sum of the digits entered
+   * 
+   * Parameters: temp: Temp here represents the absolute value of the integer
+   * generated. answer: Answer is a variable set to 0
+   * long n: The user input of an integer.
+   * 
+   * Return value: The sum of the digits
+   */
   public static int sumDigits(long n) {
     // Creating temporary integer as an absolute value of n
     int temp = (int) Math.abs(n);
