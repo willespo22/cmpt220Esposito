@@ -42,7 +42,7 @@ public class Driver_prj1 {
     int[] vResult = convolveVectors(vFirst, vSecond);
     System.out.print("[");
     for (int i = 0; i < vResult.length; i++) {
-      System.out.print(vResult[i] + " ");
+      System.out.print(Math.round(vResult[i]) + " ");
     }
     System.out.print("]");
   }
