@@ -1,0 +1,108 @@
+
+import java.util.Scanner; // Scanner is within the Java.util package
+
+public class ProjectMilestone {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+
+    // Prompt user to enter offense or defense or Special Teams
+    System.out.println("Please enter 1 for Offense, 2 for Defense, or 3 for Special Teams.");
+    int offenseOrDefence = input.nextInt();
+
+    // Declare Global Variables
+
+    int directionNumberOffense = 0;
+    int directionNumberDefense = 0;
+    int directionNumberSpecialTeams = 0;
+
+    // This is the initial selection process for Offense, Defense, and Special
+    // Teams.
+    if (offenseOrDefence == 1) {
+      directionNumberOffense++; // Equals 1
+      System.out.println("You have selected Offense!");
+    } else if (offenseOrDefence == 2) {
+      directionNumberDefense++; // Equals 1
+      System.out.println("You have selected Defense!");
+    } else if (offenseOrDefence == 3) {
+      directionNumberSpecialTeams++; // Equals 1
+      System.out.println("You have Selected Special Teams!");
+    } else {
+      System.out.println("The only valid inputs here are 1 for Offense, 2 for Defense, 3 for Special teams.");
+    }
+
+    // This is layer 2, after the user selects Offense, Defense, or Special
+    // Teams.
+    if (directionNumberOffense == 1) {
+      // Prompt user to enter QB, RB, WR, or lineman.
+      System.out.println("Please enter 1 for QB, 2 for RB, 3 for WR, or 4 for Lineman.");
+      int offensePosition = input.nextInt();
+      if (offensePosition == 1) {
+        directionNumberOffense++; // Equals 2 FOR QB
+      } else if (offensePosition == 2) {
+        directionNumberOffense += 2; // Equals 3 FOR RB
+      } else if (offensePosition == 3) {
+        directionNumberOffense += 3; // Equals 4 FOR WR
+      } else if (offensePosition == 4) // Equals 5 for LINEMAN
+        directionNumberOffense += 4;
+      else {
+        System.out.println("The only valid inputs here are 1 for QB, 2 for RB, 3 for WR, or 4 for Lineman.");
+      }
+    } else if (directionNumberDefense == 1) {
+      System.out.println("Please enter 1 for CornerBack, 2 for Safety, 3 for Linebacker, or 4 for Lineman");
+      int defensePosition = input.nextInt();
+      if (defensePosition == 1) {
+        directionNumberDefense++; // Equals 2 FOR CB
+      } else if (defensePosition == 2) {
+        directionNumberDefense += 2; // Equals 3 FOR Safety
+      } else if (defensePosition == 3) {
+        directionNumberDefense += 3; // Equals 4 FOR Linebacker
+      } else if (defensePosition == 4)
+        directionNumberDefense += 4; // Equals 5 for Lineman
+      else {
+        System.out.println(
+            "The only valid inputs here are 1 for CornerBack, 2 for Safety, 3 for Linebacker, or 4 for Lineman.");
+      }
+
+    } else if (directionNumberSpecialTeams == 1) {
+      System.out.println("Please enter 1 for Long Snapper, 2 for Kicker, 3 for Punter.");
+      int SpecialTeamsPosition = input.nextInt();
+    }
+
+    // Layer 3
+    if (directionNumberOffense == 2) {
+      System.out.println("Eli Manning is the QB for the NY Giants.");
+    } else if (directionNumberOffense == 3) {
+      System.out.println("For the 2016 season, Rashad Jennings was the starting running back.");
+    } else if (directionNumberOffense == 4) {
+      directionNumberOffense += 6; // EQUALS 10 FOR WR EXPANDED
+      System.out.print(directionNumberOffense);
+    } else if (directionNumberOffense == 5) {
+      System.out.println("Linemen!");
+
+    } else {
+      System.out.println("invalid.");
+    }
+
+    
+    // Layer 4
+    if (directionNumberOffense == 10) {
+      System.out.println(
+          "You are looking for a Wide Reciever. If you are looking for Odell Beckham Jr., enter 1. For Victor Cruz, enter 2. For Sterling Shepard, enter 3.");
+      int recieverPosition = input.nextInt();
+      if (recieverPosition == 1) {
+        System.out.println("Odell Beckham Jr. is the star WR of the NY Giants. ");
+      } else if (recieverPosition == 2) {
+        System.out.println("Victor Cruz played his first season in 2016 after a season ending injury in 2014.");
+      } else if (recieverPosition == 3) {
+        System.out.println(
+            "Despite being just a rookie, Sterling Shepard made a large impact on the field in his first season.");
+
+      } else {
+        System.out.println(
+            "The only acceptable inputs here are 1 for Odell Beckham Jr, 2 for Victor Cruz, and 3 for Sterling Shepard.");
+
+      }
+    }
+
+  } // main method
+} // public class
