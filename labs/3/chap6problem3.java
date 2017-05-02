@@ -1,6 +1,6 @@
 
 /**
- * file: SinglyLinkedList.java
+ * file: chap6problem3.java
  * author: William Esposito
  * course: CMPT 220
  * assignment: Lab 3
