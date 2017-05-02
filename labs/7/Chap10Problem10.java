@@ -36,8 +36,6 @@ public class Chap10Problem17 {
         count++;
       }
 
+      }
     }
-
   }
-
-}
