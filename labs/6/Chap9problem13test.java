@@ -39,5 +39,4 @@ public class Chap9Problem13test {
     System.out.println("The location of the largest element is " + location.maxValue + " at (" + location.row + ", "
         + location.column + ")");
   }
-
 }
