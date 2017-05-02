@@ -1,6 +1,6 @@
 
 /**
- * file: Driver_prj1.java 
+ * file: Chap8Problem13.java 
  * author: William Esposito 
  * course: CMPT 220 
  * assignment: Lab 5 
