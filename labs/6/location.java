@@ -46,11 +46,10 @@ public class Location {
           maxValue = a[i][j];
           row = i;
           column = j;
-        }
       }
     }
+  }
 
     return new Location(row, column, maxValue);
   }
-
 }
