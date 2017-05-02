@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.io.BufferedInputStream;
 
 /**
-   * file: SinglyLinkedList.java
+   * file: Driver_lab3.java
    * author: William Esposito
    * course: CMPT 220
    * assignment: Lab 3
