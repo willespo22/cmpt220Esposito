@@ -51,5 +51,4 @@ class Simplerectangle {
   double getPerimeter() {
     return 2 * width * height;
   }
-
 }
