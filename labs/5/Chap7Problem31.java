@@ -1,6 +1,6 @@
 
 /**
- * file: Driver_prj1.java 
+ * file: Chap7Problem31.java 
  * author: William Esposito 
  * course: CMPT 220 
  * assignment: Lab 5 
@@ -68,5 +68,4 @@ public class Chap7Problem31 {
     return answer;
 
   }
-
 }
