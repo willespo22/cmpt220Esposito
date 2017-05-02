@@ -34,7 +34,6 @@ public class Chap7Problem32 {
       System.out.print(integers[i] + " ");
 
     }
-
   }
 
   /**
@@ -70,5 +69,4 @@ public class Chap7Problem32 {
     return list;
 
   }
-
 }
