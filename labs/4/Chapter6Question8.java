@@ -1,5 +1,5 @@
 /**
-   * file: SinglyLinkedList.java
+   * file: Chapter6Question8.java
    * author: William Esposito
    * course: CMPT 220
    * assignment: Lab 4
