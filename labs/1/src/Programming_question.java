@@ -1,6 +1,13 @@
-//William Esposito
-//Professor Rivas
-//CMPT220L Lab 1
+/**
+ * file: Programming_question.java
+ * author: William Esposito 
+ * course: CMPT 220 
+ * assignment: Lab 1
+ * due date: January 26
+ * version: 1.3
+ * 
+ * This file contains a program with answer for designated problem
+ */
 
 import java.util.Scanner; // Scanner is in the java.util package
 
@@ -30,5 +37,4 @@ public class Programming_question {
     System.out.println("Your final grade is " + finalgrade);
 
   }
-
 }
