@@ -78,9 +78,6 @@ public class Chap4problem15 {
       System.out.println("is not a valid input.");
 
       break;
-
     }
-
   }
-
 }
