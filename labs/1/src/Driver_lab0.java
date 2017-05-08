@@ -1,6 +1,13 @@
-//William Esposito
-//Professor Rivas
-//CMPT220L Lab 1
+/**
+ * file: Driver_lab0
+ * author: William Esposito 
+ * course: CMPT 220 
+ * assignment: Lab 1
+ * due date: January 26
+ * version: 1.3
+ * 
+ * This file contains a program with answer for designated problem
+ */
 
 
 
