@@ -1,5 +1,5 @@
 /**
- * file: Chap7Problem32.java 
+ * file: Chapter2Question5.java 
  * author: William Esposito 
  * course: CMPT 220 
  * assignment: Lab 1
